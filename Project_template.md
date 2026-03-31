@@ -172,3 +172,41 @@
 - Словарь замен: `terms_map.json`.
 - Скрипт подмены терминов: `scripts/replace_terms.py`.
 - Получившийся набор данных нельзя надежно "угадать" по памяти модели без обращения к индексу.
+
+## Задание 3: Создание векторного индекса базы знаний
+
+### Выбранная эмбеддинг-модель
+
+- Название: `BAAI/bge-small-en-v1.5`
+- Ссылка: https://huggingface.co/BAAI/bge-small-en-v1.5
+- Размер эмбеддинга: `384`
+
+### Как выполнялась индексация
+
+1. Загружены документы из `knowledge_base/`.
+2. Документы разбиты на чанки с помощью `RecursiveCharacterTextSplitter` (LangChain).
+3. Для каждого чанка сгенерирован эмбеддинг локальной моделью.
+4. Векторы сохранены в FAISS (`IndexFlatIP`) с нормализацией для cosine-поиска.
+5. Метаданные чанков сохранены отдельно (`source`, `title`, `chunk_id`, `chunk_index`).
+
+### Результаты
+
+- База знаний: `knowledge_base/` (30 документов).
+- Количество чанков в индексе: `30`.
+- Время генерации индекса: `5.007` сек.
+- Файлы результата:
+  - `task 3/artifacts/faiss.index`
+  - `task 3/artifacts/faiss_store.pkl`
+  - `task 3/artifacts/vectors.npy`
+  - `task 3/artifacts/chunks.jsonl`
+  - `task 3/artifacts/index_build_meta.json`
+  - `task 3/artifacts/sample_query_result.json`
+  - `task 3/README_task3.md`
+
+### Пример запроса к индексу
+
+- Поисковый запрос: `Кто такой Ксарн Вэлгор и какую роль он играл в Империи Штиля?`
+- Найденные чанки (top-3):
+  1. `knowledge_base/01_ксарн_вэлгор.md`
+  2. `knowledge_base/11_империя_штиля.md`
+  3. `knowledge_base/29_высокий_конклав.md`
