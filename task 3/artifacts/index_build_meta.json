@@ -1,8 +1,7 @@
 {
   "embedding_model": "BAAI/bge-small-en-v1.5",
-  "embedding_model_url": "https://huggingface.co/BAAI/bge-small-en-v1.5",
   "embedding_dim": 384,
-  "chunks_count": 31,
+  "chunks_count": 32,
   "knowledge_base_path": "knowledge_base/",
-  "elapsed_seconds": 5.223
+  "updated_at_utc": "2026-03-31T20:58:37.258195+00:00"
 }

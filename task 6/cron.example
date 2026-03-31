@@ -1,0 +1,1 @@
+0 6 * * * cd /Users/ilyamerkurev/IdeaProjects/CURSOR/architecture-pro-quantum-forge && source .venv/bin/activate && python "task 6/update_index.py" >> "task 6/logs/cron.log" 2>&1
