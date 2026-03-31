@@ -1,0 +1,20 @@
+@startuml
+title Task 6 - Автообновление индекса
+
+actor "Scheduler (cron)" as Cron
+folder "Источник данных\nknowledge_base/" as Source
+rectangle "update_index.py" as Updater
+database "Chunk Store\ntask 3/artifacts/chunks.jsonl" as Chunks
+database "Vector Index\ntask 3/artifacts/faiss.index" as Index
+folder "Logs\ntask 6/logs/" as Logs
+folder "State\ntask 6/state/source_state.json" as State
+
+Cron --> Updater : daily 06:00
+Source --> Updater : scan new/changed/deleted docs
+State --> Updater : previous snapshot
+Updater --> Chunks : write chunks + metadata
+Updater --> Index : rebuild/update embeddings + FAISS
+Updater --> State : save new snapshot
+Updater --> Logs : text + json logs
+
+@enduml

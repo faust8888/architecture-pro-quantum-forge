@@ -1,0 +1,13 @@
+[
+  {"query": "Кто возглавлял Империю Штиля?", "expected_found": true, "topic": "фракции", "expected_keywords": ["Империя Штиля"]},
+  {"query": "Какой корабль связан с Ханреком Солом?", "expected_found": true, "topic": "корабли", "expected_keywords": ["Сокол Тысячелетия"]},
+  {"query": "Где жил Йодар Кесс?", "expected_found": true, "topic": "персонажи", "expected_keywords": ["Дагон-Болото"]},
+  {"query": "Что такое Высокий Конклав?", "expected_found": true, "topic": "институты", "expected_keywords": ["межсистемным органом"]},
+  {"query": "Что такое пульсоклинок?", "expected_found": true, "topic": "технологии", "expected_keywords": ["плазменное оружие"]},
+  {"query": "Для чего использовался Тифайтер?", "expected_found": true, "topic": "корабли", "expected_keywords": ["перехватчик"]},
+  {"query": "Что такое Нексус Пустоты?", "expected_found": false, "topic": "пробелы", "expected_keywords": []},
+  {"query": "Кто такой Ксарн Вэлгор?", "expected_found": false, "topic": "пробелы", "expected_keywords": []},
+  {"query": "Что такое Синт-Поток?", "expected_found": false, "topic": "пробелы", "expected_keywords": []},
+  {"query": "Как называется столица планеты Ти'лора?", "expected_found": false, "topic": "пробелы", "expected_keywords": []},
+  {"query": "Какой протокол использует HyperRelay?", "expected_found": false, "topic": "пробелы", "expected_keywords": []}
+]
