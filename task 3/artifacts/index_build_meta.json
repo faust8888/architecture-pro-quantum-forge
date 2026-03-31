@@ -2,7 +2,7 @@
   "embedding_model": "BAAI/bge-small-en-v1.5",
   "embedding_model_url": "https://huggingface.co/BAAI/bge-small-en-v1.5",
   "embedding_dim": 384,
-  "chunks_count": 30,
+  "chunks_count": 31,
   "knowledge_base_path": "knowledge_base/",
-  "elapsed_seconds": 6.19
+  "elapsed_seconds": 5.223
 }
