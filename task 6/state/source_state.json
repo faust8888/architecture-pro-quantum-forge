@@ -1,163 +1,148 @@
 {
-  "updated_at_utc": "2026-03-31T20:58:37.334644+00:00",
+  "updated_at_utc": "2026-03-31T21:03:06.664254+00:00",
   "files": [
     {
-      "path": "knowledge_base/01_ксарн_вэлгор.md",
-      "sha256": "2b0fb06bbc5b158cb8346914ad6d33d85c76a9cf921e99dfc168a7f3f5fb4e52",
-      "mtime": 1774989013.6783535
-    },
-    {
-      "path": "knowledge_base/02_леор_вейл.md",
+      "path": "task 7/knowledge_base_gap/02_леор_вейл.md",
       "sha256": "7c2da0955d4c11bd8b163e20f8932b90be94cc795914fb7a387d0046c6623adf",
       "mtime": 1774989013.619914
     },
     {
-      "path": "knowledge_base/03_лиара_орин.md",
+      "path": "task 7/knowledge_base_gap/03_лиара_орин.md",
       "sha256": "fb3eb625d6cd4d61a6c4358a83b096bb846c404e35bd531aa21ee2fede2f35d6",
       "mtime": 1774989013.5856555
     },
     {
-      "path": "knowledge_base/04_ханрек_сол.md",
+      "path": "task 7/knowledge_base_gap/04_ханрек_сол.md",
       "sha256": "d70a0be2a2907c7adcf6f168a2b1eb303bbdd422b5465bcb8c6b69bc873774dd",
       "mtime": 1774989013.6545286
     },
     {
-      "path": "knowledge_base/05_обиран_кенор.md",
+      "path": "task 7/knowledge_base_gap/05_обиран_кенор.md",
       "sha256": "578ca550c80dd182cdab4bb4156c83fc07db22ba3c422ac1cfb7241b25c30e84",
       "mtime": 1774989013.664677
     },
     {
-      "path": "knowledge_base/06_йодар_кесс.md",
+      "path": "task 7/knowledge_base_gap/06_йодар_кесс.md",
       "sha256": "6b001ff2422e4db6f60eb95ad6f84d529475050d9a8537304bfa918d53492de3",
       "mtime": 1774989013.672157
     },
     {
-      "path": "knowledge_base/07_император_ворнекс.md",
+      "path": "task 7/knowledge_base_gap/07_император_ворнекс.md",
       "sha256": "6f3d6af51cc3364ebe37ae0b67366884e6176752a2340aec689079f8808a692d",
       "mtime": 1774989013.6621401
     },
     {
-      "path": "knowledge_base/08_ар2_дельта.md",
+      "path": "task 7/knowledge_base_gap/08_ар2_дельта.md",
       "sha256": "82801eadcf4c7f0a1a02477328eca9fe8f9b002d410448df882e33582d9c37c7",
       "mtime": 1774989013.6199095
     },
     {
-      "path": "knowledge_base/09_си3_авро.md",
+      "path": "task 7/knowledge_base_gap/09_си3_авро.md",
       "sha256": "d1f09618529053d3da2e0e7282caae0c0131eca0d2b880cc0a905c0c909400d2",
       "mtime": 1774989013.6647203
     },
     {
-      "path": "knowledge_base/10_союз_искры.md",
+      "path": "task 7/knowledge_base_gap/10_союз_искры.md",
       "sha256": "438ca63a8c06a1b51c0aa863d7cd31d855b2d04400f5a070c01ad5505652e82e",
       "mtime": 1774989013.576451
     },
     {
-      "path": "knowledge_base/11_империя_штиля.md",
+      "path": "task 7/knowledge_base_gap/11_империя_штиля.md",
       "sha256": "ebe1a59ac4fa0fd0190e0834fcba974b1d16a8b553dcbd00321311136047c560",
       "mtime": 1774989013.6646397
     },
     {
-      "path": "knowledge_base/12_аэдари.md",
+      "path": "task 7/knowledge_base_gap/12_аэдари.md",
       "sha256": "3a953bb53db956902b400b6f0c9e8b6a9bb1494284368e961378072a5a83f6a7",
       "mtime": 1774989013.6783538
     },
     {
-      "path": "knowledge_base/13_воркиры.md",
+      "path": "task 7/knowledge_base_gap/13_воркиры.md",
       "sha256": "834a6bb77fb348279f9977f09f37e1c3e1f61923dac92c1e38e1cc7fa945d574",
       "mtime": 1774989013.6543198
     },
     {
-      "path": "knowledge_base/14_синт_поток.md",
-      "sha256": "664dd14fb0cef7f6e85a3803e21a841588d524b741cd78f63292a5c5cb3a4610",
-      "mtime": 1774989013.5858235
-    },
-    {
-      "path": "knowledge_base/15_пульсоклинок.md",
+      "path": "task 7/knowledge_base_gap/15_пульсоклинок.md",
       "sha256": "1efdf7d6490c732d1372ff2ee367033ec22aa8357455fcf0fa412cc057726e24",
       "mtime": 1774989013.6154702
     },
     {
-      "path": "knowledge_base/16_штормовые_легионеры.md",
+      "path": "task 7/knowledge_base_gap/16_штормовые_легионеры.md",
       "sha256": "8b53acc0be69da79f5d7d151078223500cf0e0b360fa6ba8a953270b06cdecb1",
       "mtime": 1774989013.6451743
     },
     {
-      "path": "knowledge_base/17_клон_стражи.md",
+      "path": "task 7/knowledge_base_gap/17_клон_стражи.md",
       "sha256": "650b432b9e164565d6c0f18d65c76e50c3d0164bc53fbf6276d67f902460196d",
       "mtime": 1774989013.5765607
     },
     {
-      "path": "knowledge_base/18_тарсис9.md",
+      "path": "task 7/knowledge_base_gap/18_тарсис9.md",
       "sha256": "233eb666c210e4069f6bad184b5a1b2a10a234e60b50be85e26c48b75e651bbd",
       "mtime": 1774989013.675063
     },
     {
-      "path": "knowledge_base/19_корус_альфа.md",
+      "path": "task 7/knowledge_base_gap/19_корус_альфа.md",
       "sha256": "e3358bdbdd1041da3ae7e22b9bd734b210b8d2df935631683087bea65ac4b82c",
       "mtime": 1774989013.6783879
     },
     {
-      "path": "knowledge_base/20_алдера_прим.md",
+      "path": "task 7/knowledge_base_gap/20_алдера_прим.md",
       "sha256": "df9dc1f52302c4480d5443f19f7329d09add12fab1c19316787a6f6468b5f8ab",
       "mtime": 1774989013.6200647
     },
     {
-      "path": "knowledge_base/21_набрис.md",
+      "path": "task 7/knowledge_base_gap/21_набрис.md",
       "sha256": "ceb4b625504c820d5c5a70617666de2da6d8076d66068ca20ad56c37b1b086a8",
       "mtime": 1774989013.6678236
     },
     {
-      "path": "knowledge_base/22_мустар_кель.md",
+      "path": "task 7/knowledge_base_gap/22_мустар_кель.md",
       "sha256": "0cda0f5691112d02afb82b88308abe1330b7cee5d8700f068a815a05667d7842",
       "mtime": 1774989013.6451995
     },
     {
-      "path": "knowledge_base/23_хорт_лед.md",
+      "path": "task 7/knowledge_base_gap/23_хорт_лед.md",
       "sha256": "f9070612db72055697d15b2b73dcd97fafb66c9b73e2661b336560de828b305f",
       "mtime": 1774989013.6654248
     },
     {
-      "path": "knowledge_base/24_дагон_болото.md",
+      "path": "task 7/knowledge_base_gap/24_дагон_болото.md",
       "sha256": "fc9b67f64512eb5bad1fa7beb09098b4a9622eb39c497f3dbe8a7c5d3fa929f2",
       "mtime": 1774989013.6451995
     },
     {
-      "path": "knowledge_base/25_крыло_x9.md",
+      "path": "task 7/knowledge_base_gap/25_крыло_x9.md",
       "sha256": "5ec8918bc271411a3683f8ff383a7e8cd9f6941f1b69e6014bf79995a9c68fba",
       "mtime": 1774989013.6647284
     },
     {
-      "path": "knowledge_base/26_тифайтер.md",
+      "path": "task 7/knowledge_base_gap/26_тифайтер.md",
       "sha256": "369cf1979fa5569e9843dfbb1b1371fac3406f25860d0a31a57a02d70b4e9f06",
       "mtime": 1774989013.654535
     },
     {
-      "path": "knowledge_base/27_нексус_пустоты.md",
-      "sha256": "f5378f7f455fdfc485d09682ad1fe31938e081b327bed842cff2e30cc7a3cb03",
-      "mtime": 1774989013.6200867
-    },
-    {
-      "path": "knowledge_base/28_сокол_тысячелетия.md",
+      "path": "task 7/knowledge_base_gap/28_сокол_тысячелетия.md",
       "sha256": "a95632759f7ecd48cf006eb96aa193129d56800ace869f3ebdface3a88b80fce",
       "mtime": 1774989013.6648784
     },
     {
-      "path": "knowledge_base/29_высокий_конклав.md",
+      "path": "task 7/knowledge_base_gap/29_высокий_конклав.md",
       "sha256": "519972eda216b88911b05748aef1f3310c1437dda647c304be34da7a26d43ad8",
       "mtime": 1774989013.654318
     },
     {
-      "path": "knowledge_base/30_памятокристалл.md",
+      "path": "task 7/knowledge_base_gap/30_памятокристалл.md",
       "sha256": "e588b498e3b546391818841c7915a25927788a4167bc80ba4d05348c05c8512a",
       "mtime": 1774989013.5717819
     },
     {
-      "path": "knowledge_base/31_malicious_injection.md",
+      "path": "task 7/knowledge_base_gap/31_malicious_injection.md",
       "sha256": "76ae0b381d7428a6711a13af372a3289739712ccb2d1d060a36608ad169d1018",
       "mtime": 1774990136.9374182
     },
     {
-      "path": "knowledge_base/32_обновление_индекса_тест.md",
+      "path": "task 7/knowledge_base_gap/32_обновление_индекса_тест.md",
       "sha256": "314ef3eb3d18174eeb1575f56ca06968c3fc740a01f0a102d4caecf70e0ae2bc",
       "mtime": 1774990700.1550903
     }

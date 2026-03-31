@@ -1,0 +1,11 @@
+Кто возглавлял Империю Штиля? | expected: answer_found
+Какой корабль связан с Ханреком Солом? | expected: answer_found
+Где жил Йодар Кесс? | expected: answer_found
+Что такое Высокий Конклав? | expected: answer_found
+Что такое пульсоклинок? | expected: answer_found
+Для чего использовался Тифайтер? | expected: answer_found
+Что такое Нексус Пустоты? | expected: unknown
+Кто такой Ксарн Вэлгор? | expected: unknown
+Что такое Синт-Поток? | expected: unknown
+Как называется столица планеты Ти'лора? | expected: unknown
+Какой протокол использует HyperRelay? | expected: unknown

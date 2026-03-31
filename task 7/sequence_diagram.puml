@@ -1,0 +1,35 @@
+@startuml
+title Task 7 - Query Evaluation Sequence
+
+actor Tester
+participant "test_rag_bot.py" as Eval
+database "FAISS Index\n(task 7/artifacts)" as Index
+collections "Chunks\n(chunks.jsonl)" as Chunks
+database "logs.jsonl" as Logs
+file "evaluation_report.md" as Report
+
+Tester -> Eval: run golden set
+loop each question
+  Eval -> Index: vector search(top-k)
+  Index --> Eval: candidate ids + scores
+  Eval -> Chunks: load sources/text
+  Chunks --> Eval: matched chunks
+  alt score < threshold OR no relevant chunk
+    Eval -> Eval: answer = "Я не знаю"
+  else relevant chunk exists
+    Eval -> Eval: build grounded answer
+  end
+  Eval -> Eval: compute status (expected vs actual)
+  Eval -> Logs: append query/result/sources/length/status
+end
+Eval -> Report: write aggregate metrics + gaps + recommendations
+
+note right of Eval
+Possible failures:
+- empty/corrupted index
+- invalid chunk metadata
+- low relevance search
+- false positive "successful_answer"
+end note
+
+@enduml
